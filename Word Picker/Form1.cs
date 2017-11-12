@@ -57,7 +57,7 @@ namespace Word_Picker
 
         private void GetWords(object sender, EventArgs e)
         {
-            wordsBox.Text = "";
+            wordsBox.Text = string.Empty;
 
             int wordLength = (int)numericUpDown1.Value;
             int numberOfWords = 0;
