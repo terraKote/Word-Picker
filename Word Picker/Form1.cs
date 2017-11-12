@@ -39,7 +39,7 @@ namespace Word_Picker
                             textBox.Text = DocX.Load(openFileDialog1.FileName).Text;
                             break;
 
-                        case "text":
+                        case "txt":
                             textBox.Text = File.ReadAllText(openFileDialog1.FileName);
                             break;
                     }
